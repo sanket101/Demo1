@@ -1,0 +1,77 @@
+    1  git version
+    2  ls -all
+    3  ls
+    4  git init
+    5  ls -all
+    6  git config --global user.name Sanket
+    7  git config --global ls
+    8  git config --global --list
+    9  git config --global user.email sanket.giri@publicissapient.com
+   10  git config --global --list
+   11  touch a.txt
+   12  git status
+   13  git add a.txt
+   14  git status
+   15  git commit -m "Inital Commit"
+   16  git status
+   17  touch b.txt
+   18  git add b.txt
+   19  git commit -m "Second Commit"
+   20  git log
+   21  cd .git
+   22  ls
+   23  cd objects/
+   24  ls
+   25  cd af
+   26  ls
+   27  cat 7c29e4be320fb32f66a925d1ac526570bad1c0 
+   28  cd ..
+   29  cd ..
+   30  cd ..
+   31  code .
+   32  git status
+   33  git checkout --a.txt
+   34  git checkout -- a.txt
+   35  git status
+   36  git status
+   37  git status
+   38  git add b.txt
+   39  git status
+   40  git reset HEAD b.txt
+   41  git status
+   42  git commit -am "Direct Commit"
+   43  git status
+   44  git log
+   45   git log --oneline
+   46   git checkout af7c
+   47  git log
+   48  git checkout master
+   49  git log
+   50  git remote add origin https://github.com/sanket101/Demo1.git
+   51  git remote add origin https://github.com/sanket101/Demo1.git
+   52  git remote add origin https://github.com/sanket101/Demo1.git
+   53  git push -u origin master
+   54  cd ..
+   55  ls
+   56  cd .ssh
+   57  cd ..
+   58  ls
+   59  cd ..
+   60  cd .ssh
+   61  cd ~/.ssh
+   62  ls
+   63  notepad id_rsa.pub
+   64  cd ..
+   65  cd c
+   66  cd C
+   67  ls
+   68  touch c.txt
+   69  git status
+   70  git commit -am "Final Commit" 
+   71  git commit -am"Final Commit" 
+   72  git commit -m"Final Commit" 
+   73  git commit -am "Final Commit" 
+   74  git add c.txt
+   75  git commit -m "Final Commit"
+   76  git push origin master
+   77  history > command.txt
